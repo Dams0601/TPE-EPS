@@ -70,10 +70,11 @@ header.header {
     display: flex;
     align-items: center;
     background-color: rgb(181, 218, 255);
-    padding-left: 100px;
-    min-width: 100%;
+    padding-left: 45px;
+    width: 100%;
     position: fixed;
     z-index: 10;
+    overflow-y: scroll;
 }
 
 header.header img {
@@ -118,18 +119,18 @@ section.top-page header nav li span {
 
 /* navbar */
 header nav li {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 header nav.nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
-    width: 100px;
+    width: 100%;
     height: 60px;
-    margin-left: 30px;
+    margin-right: 40%;
 }
 
 .nav_title {
@@ -222,7 +223,8 @@ section.contenu .paragraphe {
 }
 
 .description {
-    height: 270px;
+    height: 295px;
+    width: 100%;
 }
 
 .image_droite {
